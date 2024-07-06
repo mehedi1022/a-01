@@ -363,6 +363,7 @@ header .header-main .header-text h1 {
     font-weight: 500;
     line-height: 32px;
     /* 160% */
+    margin: 0 150px;
 }
 
 
@@ -439,6 +440,7 @@ header .header-main .header-text h1 {
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+    margin: 0px 400px 0px 0px;
 
 }
 #portfolio .portfolio-main .portfolio-img .box{
@@ -507,6 +509,7 @@ header .header-main .header-text h1 {
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+    margin: 0px 250px;
 }
 
 #newsletter .newsletter-main form {
@@ -587,10 +590,11 @@ footer .container .footer-text .footer-t2 .footer-t2-2 {
     gap: 16px;
 }
 
-footer .container .line {
-    width: 1320px;
+footer .container hr {
+    /* width: 1320px; */
     padding: 1px;
     background: rgba(255, 255, 255, 0.15);
+    border: none;
 }
 
 footer .container .footer-logo {
